@@ -5,7 +5,7 @@ import {RootStackParamList} from '../AppRoot';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 
 type LoginScreenProps = {
-  navigation: NativeStackNavigationProp<RootStackParamList, 'LoginScreen'>;
+  navigation: NativeStackNavigationProp<RootStackParamList>;
 };
 
 const LoginScreen: React.FC<LoginScreenProps> = ({navigation}) => {

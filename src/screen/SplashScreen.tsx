@@ -17,7 +17,7 @@ const SplashScreen: React.FC<SplashScreennProps> = ({navigation}) => {
     return () => {
       clearTimeout(timer);
     };
-  }, []);
+  }, [navigation]);
 
   return (
     <View style={styles.centerContent}>

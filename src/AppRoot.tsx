@@ -24,7 +24,7 @@ const AppRoot = () => {
         name="LoginScreen"
         component={LoginScreen}
         options={{
-          headerShown: false, // This line hides the header for the Home screen
+          headerShown: true,
         }}
       />
     </Stack.Navigator>
